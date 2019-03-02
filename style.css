@@ -1,0 +1,60 @@
+style{
+box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: #dfbf9f;
+}
+div{
+	width:60%;
+	margin: 0 auto;
+}
+h1{
+	background-color: red;
+	padding: 15px;
+	font-size: 20px;
+	text-align: center;
+	color: yellow;
+}
+.NA{
+	background-color: black;
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+	color:blue;
+}
+header {
+  background-color: #99ffcc;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1; 
+  background: #eeccff;
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+footer {
+  background-color: #e0e0eb;
+  padding: 10px;
+  text-align: center;
+  color: #1f1f2e;
+}
